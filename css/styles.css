@@ -17,11 +17,22 @@ body {
 
 /* common */
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 396px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 h1,
@@ -96,7 +107,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header .container {
+.header-container {
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -110,13 +121,17 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--active-elem-color);
   text-transform: uppercase;
   text-decoration: none;
+}
 
-  margin-right: 78px;
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 78px;
+  }
 }
 
 .logo-item {
@@ -178,6 +193,37 @@ button {
 .address-link:hover,
 .address-link:focus {
   color: var(--active-state-elem);
+}
+
+.logo-mob {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--active-elem-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-btn-mob {
+  display: block;
+  padding: 0;
+  border: none;
+  stroke: #2e2f42;
+  background-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .address-menu {
+    display: none;
+  }
 }
 
 /* hero */
