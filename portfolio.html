@@ -20,16 +20,20 @@
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="nav-menu">
+
                 <a href="./index.html" class="logo">Web<span class="logo-item">Studio</span></a>
 
+
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="./index.html" class="nav-link">Studio</a></li>
-                    <li class="nav-item"><a href="./portfolio.html" class="nav-link  current">Portfolio</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link current">Studio</a>
+                    </li>
+                    <li class="nav-item"><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
                 </ul>
             </nav>
+
 
             <address class="address-menu">
                 <ul class="address-list">
@@ -40,6 +44,16 @@
                     </li>
                 </ul>
             </address>
+
+
+            <button type="button" class="header-btn-mob">
+                <svg width="32" height="22">
+                    <use href="./images/icons.svg#menu-burger"></use>
+                </svg>
+            </button>
+
+
+
         </div>
     </header>
 
@@ -61,7 +75,32 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio1.jpg" alt="Banking App" width="360" height="300">
+
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio1-desc.webp 1x, ./images/portfolio1-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio1-desc.jpg 1x, ./images/portfolio1-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio1-tablet.webp 1x, ./images/portfolio1-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio1-tablet.jpg 1x, ./images/portfolio1-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio1-mob.webp 1x, ./images/portfolio1-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio1-mob.jpg 1x, ./images/portfolio1-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio1-mob.jpg" alt="Banking App" width="396" height="280">
+                                </picture>
+
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -77,8 +116,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio2.jpg" alt="Cashless payment by phone" width="360"
-                                    height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio2-desc.webp 1x, ./images/portfolio2-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio2-desc.jpg 1x, ./images/portfolio2-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio2-tablet.webp 1x, ./images/portfolio2-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio2-tablet.jpg 1x, ./images/portfolio2-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio2-mob.webp 1x, ./images/portfolio2-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio2-mob.jpg 1x, ./images/portfolio2-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio2-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -94,8 +156,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio3.jpg" alt="Meditaion App on computer and phone" width="360"
-                                    height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio3-desc.webp 1x, ./images/portfolio3-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio3-desc.jpg 1x, ./images/portfolio3-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio3-tablet.webp 1x, ./images/portfolio3-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio3-tablet.jpg 1x, ./images/portfolio3-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio3-mob.webp 1x, ./images/portfolio3-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio3-mob.jpg 1x, ./images/portfolio3-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio3-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -111,8 +196,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio4.jpg" alt="Taxi app on the phone bthind driver" width="360"
-                                    height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio4-desc.webp 1x, ./images/portfolio4-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio4-desc.jpg 1x, ./images/portfolio4-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio4-tablet.webp 1x, ./images/portfolio4-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio4-tablet.jpg 1x, ./images/portfolio4-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio4-mob.webp 1x, ./images/portfolio4-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio4-mob.jpg 1x, ./images/portfolio4-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio4-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -129,8 +237,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio5.jpg" alt="Phone screen with pictures" width="360"
-                                    height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio5-desc.webp 1x, ./images/portfolio5-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio5-desc.jpg 1x, ./images/portfolio5-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio5-tablet.webp 1x, ./images/portfolio5-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio5-tablet.jpg 1x, ./images/portfolio5-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio5-mob.webp 1x, ./images/portfolio5-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio5-mob.jpg 1x, ./images/portfolio5-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio5-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -148,8 +279,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio6.jpg" alt="Girl is looking at the phone" width="360"
-                                    height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio6-desc.webp 1x, ./images/portfolio6-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio6-desc.jpg 1x, ./images/portfolio6-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio6-tablet.webp 1x, ./images/portfolio6-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio6-tablet.jpg 1x, ./images/portfolio6-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio6-mob.webp 1x, ./images/portfolio6-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio6-mob.jpg 1x, ./images/portfolio6-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio6-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -165,7 +319,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio7.jpg" alt="Instagram Stories" width="360" height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio7-desc.webp 1x, ./images/portfolio7-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio7-desc.jpg 1x, ./images/portfolio7-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio7-tablet.webp 1x, ./images/portfolio7-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio7-tablet.jpg 1x, ./images/portfolio7-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio7-mob.webp 1x, ./images/portfolio7-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio7-mob.jpg 1x, ./images/portfolio7-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio7-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -181,8 +359,31 @@
                     <li class="projects-list">
                         <a class="project-link" href="">
                             <div class="project-img-overlay-wrapper">
-                                <img src="./images/portfolio8.jpg" alt="Girl is carrying fresh vegetables" width="360"
-                                    height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio8-desc.webp 1x, ./images/portfolio8-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio8-desc.jpg 1x, ./images/portfolio8-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio8-tablet.webp 1x, ./images/portfolio8-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio8-tablet.jpg 1x, ./images/portfolio8-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio8-mob.webp 1x, ./images/portfolio8-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio8-mob.jpg 1x, ./images/portfolio8-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio8-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -198,7 +399,31 @@
                     <li class="projects-list">
                         <div class="project-img-overlay-wrapper">
                             <a class="project-link" href="">
-                                <img src="./images/portfolio9.jpg" alt="Cup of coffee" width="360" height="300">
+                                <picture>
+                                    <source
+                                        srcset="./images/portfolio9-desc.webp 1x, ./images/portfolio9-desc@2x.webp 2x"
+                                        media="(min-width: 1200px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio9-desc.jpg 1x, ./images/portfolio9-desc@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpeg">
+
+                                    <source
+                                        srcset="./images/portfolio9-tablet.webp 1x, ./images/portfolio9-tablet@2x.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/portfolio9-tablet.jpg 1x, ./images/portfolio9-tablet@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpeg">
+
+                                    <source srcset="./images/portfolio9-mob.webp 1x, ./images/portfolio9-mob@2x.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp">
+
+                                    <source srcset="./images/portfolio9-mob.jpg 1x, ./images/portfolio9-mob@2x.jpg 2x"
+                                        media="(max-width: 767px)" type="image/jpeg">
+
+                                    <img src="./images/portfolio9-mob.jpg" alt="Cashless payment by phone" width="396"
+                                        height="280">
+                                </picture>
                                 <p class="overlay section-text">14 Stylish and User-Friendly App Design Concepts · Task
                                     Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -226,8 +451,8 @@
                     growth
                     solutions.</p>
             </div>
-            <div>
-                <p class="footer-text-social">Social media</p>
+            <div class="footer-social-media">
+                <p class="footer-text-social section-subtitle">Social media</p>
                 <ul class="footer-social-list">
                     <li class="footer-social-item"><a class="footer-social-link" href="">
                             <svg width="24" height="24">
@@ -250,6 +475,20 @@
                             </svg>
                         </a></li>
                 </ul>
+            </div>
+            <div class="footer-subscribe">
+                <p class="footer-subscribe-text section-subtitle">Subscribe</p>
+                <form class="footer-form-field">
+                    <label class="footer-field-label">
+                        <input type="email" name="user-email" class="footer-field-input" placeholder="E-mail" required>
+                    </label>
+                    <button type="submit" class="footer-btn-subscribe">Subscribe
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#plane"></use>
+                        </svg>
+                    </button>
+                </form>
+
             </div>
         </div>
 

@@ -44,7 +44,7 @@
             </address>
 
 
-            <button type="button" class="header-btn-mob">
+            <button type="button" class="header-btn-mob" data-menu-open>
                 <svg width="32" height="22">
                     <use href="./images/icons.svg#menu-burger"></use>
                 </svg>
@@ -317,6 +317,8 @@
 
         </section>
 
+        <!-- customers -->
+
         <section class="customers">
             <div class="container">
                 <h2 class="section-title">Customers</h2>
@@ -422,9 +424,10 @@
 
     </footer>
 
+    <!-- Header-menu-mobile -->
 
-    <!-- <div class="header-backdrop-menu-mob">
-        <button type="button" class="close-header-menu-mob-btn" data-modal-close>
+    <div class="header-backdrop-menu-mob is-hidden" data-menu>
+        <button type="button" class="close-header-menu-mob-btn" data-menu-close>
             <svg class="close-modal-icon" width="8" height="8">
                 <use href="./images/icons.svg#close-btn"></use>
             </svg>
@@ -433,31 +436,52 @@
         <div class="header-menu-mob">
 
             <ul class="nav-list-mob">
-                <li class="nav-item-mob"><a class="nav-link-mob current" href="./index.html">Studio</a></li>
+                <li class="nav-item-mob"><a class="nav-link-mob" href="./index.html">Studio</a></li>
                 <li class="nav-item-mob"><a class="nav-link-mob" href="./portfolio.html">Portfolio</a></li>
-                <li class="nav-item-mob"><a class="nav-link-mob" href="">Contacts</a></li>
+                <li class="nav-item-mob"><a class="nav-link-mob current" href="">Contacts</a></li>
             </ul>
 
-            <address class="address-menu-mob">
-                <ul class="address-list-mob">
-                    <li class="address-item-mob"><a href="tel:+110001111111" class="address-link-mob-tel">+11 (000)
-                            111-11-11</a>
-                    </li>
-                    <li class="address-item-mob"><a href="mailto:info@devstudio.com"
-                            class="address-link-mob-email">info@devstudio.com</a>
-                    </li>
+            <div class="contacts-wrapper">
+
+                <address class="address-menu-mob">
+                    <ul class="address-list-mob">
+                        <li class="address-item-mob"><a href="tel:+110001111111" class="address-link-mob-tel">+11 (000)
+                                111-11-11</a>
+                        </li>
+                        <li class="address-item-mob"><a href="mailto:info@devstudio.com"
+                                class="address-link-mob-email">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+
+                <ul class="menu-mob-social-list">
+                    <li class="menu-mob-social-item"><a class="menu-mob-social-link" href="">
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a></li>
+                    <li class="menu-mob-social-item"><a class="menu-mob-social-link" href="">
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a></li>
+                    <li class="menu-mob-social-item"><a class="menu-mob-social-link" href="">
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a></li>
+                    <li class="menu-mob-social-item"><a class="menu-mob-social-link" href="">
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a></li>
                 </ul>
-            </address>
 
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            </div>
+
         </div>
 
-    </div> -->
+    </div>
     <!-- Hero-modal-window -->
 
     <div class="backdrop is-hidden" data-modal>
