@@ -694,7 +694,7 @@ button {
 .footer-main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   row-gap: 72px;
 }
@@ -703,7 +703,6 @@ button {
   .footer-main {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
     column-gap: 24px;
   }
 }
@@ -812,10 +811,21 @@ button {
   }
 }
 
+/* .footer-subscribe {
+  width: 100%;
+}
+
+.footer-field-label {
+  width: 100%;
+} */
+
 .footer-form-field {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
+
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -874,6 +884,7 @@ button {
   gap: 16px;
 
   padding: 8px 24px;
+  max-width: 165px;
 
   border: none;
   background-color: var(--active-elem-color);
